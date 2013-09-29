@@ -43,6 +43,7 @@ else
 fi
 
 # need to copy the binaries to /app/vendor so that R works
+mkdir -p /app/vendor
 cp -R $VENDOR_DIR/gcc-4.3 /app/vendor/gcc-4.3
 cp -R $VENDOR_DIR/glibc-2.7 /app/vendor/glibc-2.7
 cp -R $VENDOR_DIR/R /app/vendor/R
